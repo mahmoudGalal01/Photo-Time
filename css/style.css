@@ -1,0 +1,252 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+}
+
+.contener {
+    width: 1250px;
+    margin: auto;
+}
+
+.custom-ptn {
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #16a085;
+    font-size: 22px;
+    text-transform: uppercase;
+    padding: 10px 30px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+.custom-ptn:hover {
+    background-color: #ff7777;
+}
+.head-section h2{
+    color: #16a085;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    font-variant: small-caps
+}
+.head-section p{
+    color: #c2c3c4;
+    margin-bottom: 40px;
+    line-height:  29px;
+}
+.head-section p span{
+    color: #222;
+}
+.head-section button{
+
+}
+ul {
+    list-style: none;
+}
+.clear{
+    clear: both;
+}
+/*--------Header------*/
+header {
+    background-image: url(../images/cool-wallpaper-dawn-dusk-66997.jpg);
+    color: #fff;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header nav {
+    padding-top: 50px;
+}
+
+header nav ul {}
+
+header nav ul li {
+    display: inline-block;
+    margin: 0 70px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header nav ul li a img {}
+
+header .title {
+    margin-top: 170px;
+}
+
+header .title h1 {}
+
+header .title span {
+    display: block;
+}
+
+header .title button {
+    margin-top: 50px;
+}
+
+header ul.social {
+    margin-top: 150px;
+}
+
+header ul.social li {
+    display: inline-block;
+}
+
+header ul.social li a {
+    color: #fff;
+
+}
+
+header ul.social li a i {
+    font-size: 25px;
+    margin: 20px 10px;
+}
+/*----------------------------life------------------------------*/
+.life{
+    padding: 100px 0;
+    background-image: url(../images/hand-phone.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.life .head-section{
+    width: 400px;
+}
+
+/*----------------------------Desgin------------------------------------*/
+.design{
+    padding-top: 100px; 
+}
+.design .contener{
+    float: left;
+    width: 50%;
+}
+.design .contener img{
+    
+}
+.design .contener .head-section{
+    margin-top: 50px;
+}
+/*----------------------------Work-------------------------------------------*/
+.works{
+    background-color: #f5f6f7;
+    padding: 100px 0;
+    overflow: hidden;
+}
+.works .box{
+    float: left;
+    width: 33.333%;
+    text-align: center;
+}
+.works .box img{
+    width: 330px
+}
+#logimg{
+    width: 100px;
+}
+.works .box h3{
+    color: #373737;
+    text-transform: uppercase;
+    margin: 20px 0;
+    
+}
+.works .box p{
+    color: #d0c3d4;
+    width: 200px;
+    margin: auto;
+}
+/*----------------------------subscribe-------------------------------------*/
+.subscribe{
+    background-image:url(../images/blur-colorful-colourful-21492.png);
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+    color: #ffffff;
+}
+.subscribe form{
+    padding-top: 40vh;
+}
+.subscribe form h2{
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.subscribe form input[type="email"]{
+    height: 50px;
+    width: 200px;
+    padding: 0 10px;
+}
+.subscribe form a{
+    color: #ffffff;
+}
+.subscribe form i{
+    width: 50px;
+    height: 50px;
+    background-color: #16a085;
+    line-height: 50px;
+    margin-left: -5px;
+    border: 1px solid #16a085;
+
+}
+/*-----------------------------Download------------------------------------*/
+.download{
+    padding: 100px 0;
+    text-align: center;
+    background-color: #f5f6f7;
+}
+.download h2{
+    color: #303835;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+.download p{
+    color: #ccc3d6;
+    line-height: 29px;
+    margin-bottom: 20px;
+}
+.download button{
+    margin: 0 10px;
+}
+.download button i{
+    margin-left: 10px;
+}
+/*------------------------------footer---------------------------------*/
+footer {
+    padding: 50px 0;
+    overflow: hidden;
+}
+footer .links {
+    float: left;
+    font-weight: bold;
+}
+footer .links ul {
+    
+}
+footer .links ul li {
+    display: inline-block;
+}
+footer .links ul li:after {
+    content: "|";
+    margin: 0 5px;
+}
+footer .links ul li:last-child:after{
+    content: none;
+}
+footer .links ul li a {
+    color: #000204;
+    text-transform: lowercase;
+    text-decoration: none;
+}
+footer .logo {
+    float: right;
+}
+footer .logo img {
+    float: right
+}
